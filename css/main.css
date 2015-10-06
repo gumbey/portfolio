@@ -54,6 +54,14 @@ h1 {
   margin: 0
 }
 
+.sans-serif {
+   font-family: "Roboto", sans-serif;
+}
+
+p, a{
+  font-family: "Roboto Slab", serif;
+}
+
 .large-screen {
     max-width: 55em;
     margin: 0 auto;
@@ -85,7 +93,7 @@ h1 {
 }
 
 .banner {
-  background-color: #111011;
+  background-color: rgba(17, 16, 17, 1 );
 }
 
 .nav{
@@ -126,7 +134,7 @@ padding: none;
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
-  width: 30px;
+  width: 25px;
   position: absolute;
   right: 20px;
   top: 9px;
@@ -168,8 +176,16 @@ font-size: .75rem;
   line-height: 1em;
 }
 
+.subh {
+  text-align: center;
+}
+
 .bilpad{
   padding: 7.5em 0;
+}
+
+.overflow{
+  overflow: hidden;
 }
 
 .figimg {
@@ -178,18 +194,34 @@ font-size: .75rem;
 
 .figcap {
   text-align: center;
+   padding: 0;
 }
 
-@media only screen and (min-width:25em) {
+.contact {
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
 
+.about{
+  margin: 1em;
+}
+@media only screen and (min-width:25em) {
+.bilpad {
+  padding: 35.5em 0;
+}
 }
 
 @media only screen and (min-width:48em){
-
+.bilpad {
+  padding: 35.5em 0;
+}
 }
 
 @media only screen and (min-width:68em){
-
+.bilpad {
+  padding: 25.5em 0;
+}
 }
 
 @media only screen and (min-width:78em){

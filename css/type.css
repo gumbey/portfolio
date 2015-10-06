@@ -163,3 +163,8 @@ sub {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
 }
+
+.gutter-8 {
+  padding-left: 8.5000rem;
+  padding-right: 8.5000rem;
+}
