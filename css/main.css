@@ -112,7 +112,7 @@ p, a{
 }
 
 .nav  {
-padding: none;
+padding: 0;
 }
 
 .nav a {
@@ -154,10 +154,6 @@ font-size: .75rem;
 .logo {
   display:block;
   text-decoration: none;
-}
-
-.logotype {
-  font-size: 300;
 }
 
 .billboard {
