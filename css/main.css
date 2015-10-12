@@ -68,7 +68,7 @@ p, a{
 }
 
 .large-screen-b {
-    max-width: 1700px;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ p, a{
 }
 
 .banner {
-  background-color: rgba(17, 16, 17, 1 );
+
 }
 
 .nav{
@@ -166,26 +166,16 @@ font-size: .75rem;
   width: 100%;
 }
 
-.billboard-type{
-  text-align: center;
-  background-color:  rgba(220, 220, 220, .8);
-  line-height: 1em;
-}
-
 .subh {
   text-align: center;
 }
 
-.bilpad{
-  padding: 16.5em 0;
-}
-
-.overflow{
+.overflow {
   overflow: hidden;
 }
 
-.figimg {
-  width: 100%
+.bilpad{
+  padding: 16.5em 0;
 }
 
 .figcap {
@@ -199,13 +189,48 @@ font-size: .75rem;
   margin: auto;
 }
 
+.wimg {
+  width: 100%;
+}
+
+.me{
+  position: relative;
+
+}
+
+.geo {
+display: block;
+width: 100%;
+height: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
 .about{
   margin: 1em;
 }
+
 @media only screen and (min-width:25em) {
 .bilpad {
   padding: 35.5em 0;
 }
+
+}
+
+@media only screen and (min-width:38em){
+.geo {
+height: 2.5rem;
+}
+
+.me {
+  top: 4em;
+}
+
 }
 
 @media only screen and (min-width:48em){
@@ -218,11 +243,23 @@ font-size: .75rem;
   padding-right: 8.5000rem;
 }
 
+.geo {
+height: 2.5rem;
+}
+
+.me {
+  top: 0em;
+}
+
 }
 
 @media only screen and (min-width:68em){
 .bilpad {
   padding: 25.5em 0;
+}
+
+.geo {
+height: 3.5rem;
 }
 }
 
