@@ -20,6 +20,7 @@ html {
 html {
   padding: 0;
   margin: 0;
+  background-color: #F4F6F6;
 }
 
 @media only screen and (min-width: 60em) {
@@ -50,7 +51,7 @@ body {
 }
 
 h1 {
-  margin: 0
+  margin: 0;
 }
 
 .sans-serif {
@@ -98,6 +99,8 @@ p, a{
 
 .fixed{
   position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav{
